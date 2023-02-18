@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#canvas-1 {
+  border: 2px solid black;
+  max-height: 100%;
+  max-width: 100%;
+  font-family: 'Creepster';
+}
+
+#playerImage, #layer1, #layer2, #layer3, #layer4, #layer5, #enemy_fly, #enemy_plant, #enemy_spider_big, #fire, #collisionAnimation, #lives {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
